@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(139, 167, 167);
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.heading {
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items,
+.todo,
+.finished {
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+hr {
+    border: 1px solid rgb(158, 102, 102);
+}
+
+#item {
+    border-radius: 6px;
+    width: 300px;
+    height: 25px;
+}
+
+.btn {
+    position: relative;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    top: 3px;
+    cursor: pointer;
+    background-color: rgba(121, 93, 112, 0.808);
+    border-radius: 1rem;
+    padding: 8px;
+}
